@@ -1,0 +1,7 @@
+[package]
+name = "rustls"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rcgen = { version = "0.13.1", features = ["crypto", "ring", "pem", "x509-parser"] }
